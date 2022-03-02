@@ -1,0 +1,17 @@
+# any lines starting with "#" will be ignored.
+
+# Careful, this is regex! To match anything use ".*"
+inputFileName=.*
+inputDirectoryPath=C:\Zex\Sur-Mesure\Comcast\INPUT
+
+outputFileName=CAMTOUT.txt
+outputDirectoryPath=C:\Zex\Sur-Mesure\Comcast\OUT
+
+archiveInputDirectoryPath=C:\Zex\Sur-Mesure\Comcast\ARCHIVE
+archiveOutputDirectoryPath=C:\Zex\Sur-Mesure\Comcast\ARCHIVE
+
+logDirPath=C:\Zex\Sur-Mesure\Comcast\LOG
+
+#emailServer=VIP-PARAPPSMTP.GROUP.ECHONET.fr.net.intra
+#sendingAddress=paris_oav_apac_idf_sur_mesure@bnpparibas.com
+#receivingAddress=mlist_sdi_osm@bnpparibas.com
