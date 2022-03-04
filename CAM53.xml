@@ -1,1889 +1,1552 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root>
-<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.02">
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<BkToCstmrStmt>
+<GrpHdr>
+<MsgId>ZYBLQ43WYLIQWA72H</MsgId>
+<CreDtTm>2022-03-02T05:58:49</CreDtTm>
+</GrpHdr>
 <Stmt>
-    <Id>ZYBKPFW6L0RHD8P2H</Id>
-    <ElctrncSeqNb>1</ElctrncSeqNb>
-    <CreDtTm>2021-09-04T16:01:44</CreDtTm>
-    <Acct>
-        <Id>
-            <Othr>
-                <Id>065534984</Id>
-            </Othr>
-        </Id>
-        <Ccy>USD</Ccy>
-        <Svcr>
-            <FinInstnId>
-                <BIC>BNPAFRPPXXX</BIC>
-            </FinInstnId>
-        </Svcr>
-    </Acct>
-    <Bal>
-        <Tp>
-            <CdOrPrtry>
-                <Cd>OPBD</Cd>
-            </CdOrPrtry>
-        </Tp>
-        <Amt Ccy="USD">0.00</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Dt>
-            <Dt>2021-09-03</Dt>
-        </Dt>
-    </Bal>
-    <Bal>
-        <Tp>
-            <CdOrPrtry>
-                <Cd>CLBD</Cd>
-            </CdOrPrtry>
-        </Tp>
-        <Amt Ccy="USD">0.00</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Dt>
-            <Dt>2021-09-03</Dt>
-        </Dt>
-    </Bal>
-    <Bal>
-        <Tp>
-            <CdOrPrtry>
-                <Cd>CLAV</Cd>
-            </CdOrPrtry>
-        </Tp>
-        <Amt Ccy="USD">0.00</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Dt>
-            <Dt>2021-09-03</Dt>
-        </Dt>
-    </Bal>
-    <TxsSummry>
-        <TtlNtries>
-            <NbOfNtries>2</NbOfNtries>
-            <Sum>2.00</Sum>
-            <TtlNetNtryAmt>0.00</TtlNetNtryAmt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-        </TtlNtries>
-        <TtlCdtNtries>
-            <NbOfNtries>1</NbOfNtries>
-            <Sum>1.00</Sum>
-        </TtlCdtNtries>
-        <TtlDbtNtries>
-            <NbOfNtries>1</NbOfNtries>
-            <Sum>1.00</Sum>
-        </TtlDbtNtries>
-    </TxsSummry>
-    <Ntry>
-        <Amt Ccy="USD">1.00</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-            <Dt>2021-09-03</Dt>
-        </BookgDt>
-        <ValDt>
-            <Dt>2021-09-03</Dt>
-        </ValDt>
-        <BkTxCd>
-            <Domn>
-                <Cd>PMNT</Cd>
-                <Fmly>
-                    <Cd>RCDT</Cd>
-                    <SubFmlyCd>XBCT</SubFmlyCd>
-                </Fmly>
-            </Domn>
-            <Prtry>
-                <Cd>TRF/195/058/TRF/089/18</Cd>
-                <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-            </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-            <TxDtls>
-                <Refs>
-                    <EndToEndId>090321</EndToEndId>
-                </Refs>
-                <RltdPties>
-                    <Dbtr>
-                        <Nm>Santen Incorpora</Nm>
-                    </Dbtr>
-                </RltdPties>
-                <RmtInf>
-                    <Ustrd>/PREAUTHORIZED ACH CREDITSanten Incorpora 4IQF40AYFE 090321                 CCD</Ustrd>
-                </RmtInf>
-                <AddtlTxInf>:61.9:SKY DEUTSCHLAND FER.:86:/TYPE/784/FUNDS RECD//CODE/DE/000//REMI/CASHPOOLING 18.01.2022//ORDP/NAME/SKY DEUTSCHLAND FER.//INFO/DE60700202700031672180//OBK/HYVEDEMM//TR/2022011800018607/</AddtlTxInf>
-            </TxDtls>
-        </NtryDtls>
-    </Ntry>
-    <Ntry>
-        <Amt Ccy="USD">1.00</Amt>
-        <CdtDbtInd>DBIT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-            <Dt>2021-09-03</Dt>
-        </BookgDt>
-        <ValDt>
-            <Dt>2021-09-03</Dt>
-        </ValDt>
-        <BkTxCd>
-            <Domn>
-                <Cd>PMNT</Cd>
-                <Fmly>
-                    <Cd>RCDT</Cd>
-                    <SubFmlyCd>XBCT</SubFmlyCd>
-                </Fmly>
-            </Domn>
-            <Prtry>
-                <Cd>DDT/699/120/DDT/F06/08</Cd>
-                <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-            </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-            <TxDtls>
-                <Refs>
-                    <EndToEndId>NONREF</EndToEndId>
-                </Refs>
-                <RmtInf>
-                    <Ustrd>ACH SETTLEMENT DEBIT SANTEN HOLDINGS  MISC       090321  SETT SWIFTNET      S</Ustrd>
-                </RmtInf>
-                <AddtlTxInf>:86:/TYPE/466/ACH Settlement/CODE/US/000/REMI/ACH SETTLEMENT DEBIT SANTEN HOLDINGS  MISC       090321  SETT SWIFTNET      S</AddtlTxInf>
-            </TxDtls>
-        </NtryDtls>
-    </Ntry>
-</Stmt>
-<Stmt>
-<Id>ZYBKPFW6L1CX14GR9</Id>
-<ElctrncSeqNb>1</ElctrncSeqNb>
-<CreDtTm>2021-09-04T16:01:44</CreDtTm>
+<Id>ZYBLQ43WYLIQWA72H</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
 <Acct>
-    <Id>
-        <Othr>
-            <Id>065535452</Id>
-        </Othr>
-    </Id>
-    <Ccy>USD</Ccy>
-    <Svcr>
-        <FinInstnId>
-            <BIC>BNPAFRPPXXX</BIC>
-        </FinInstnId>
-    </Svcr>
+<Id>
+<Othr>
+<Id>4223658024EUR</Id>
+</Othr>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>BNPADEFFXXX</BIC>
+</FinInstnId>
+</Svcr>
 </Acct>
 <Bal>
-    <Tp>
-        <CdOrPrtry>
-            <Cd>OPBD</Cd>
-        </CdOrPrtry>
-    </Tp>
-    <Amt Ccy="USD">0.05</Amt>
-    <CdtDbtInd>CRDT</CdtDbtInd>
-    <Dt>
-        <Dt>2021-09-03</Dt>
-    </Dt>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
 </Bal>
 <Bal>
-    <Tp>
-        <CdOrPrtry>
-            <Cd>CLBD</Cd>
-        </CdOrPrtry>
-    </Tp>
-    <Amt Ccy="USD">0.05</Amt>
-    <CdtDbtInd>CRDT</CdtDbtInd>
-    <Dt>
-        <Dt>2021-09-03</Dt>
-    </Dt>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
 </Bal>
 <Bal>
-    <Tp>
-        <CdOrPrtry>
-            <Cd>CLAV</Cd>
-        </CdOrPrtry>
-    </Tp>
-    <Amt Ccy="USD">0.00</Amt>
-    <CdtDbtInd>CRDT</CdtDbtInd>
-    <Dt>
-        <Dt>2021-09-03</Dt>
-    </Dt>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
 </Bal>
 <TxsSummry>
-    <TtlNtries>
-        <NbOfNtries>2</NbOfNtries>
-        <Sum>2.00</Sum>
-        <TtlNetNtryAmt>0.00</TtlNetNtryAmt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-    </TtlNtries>
-    <TtlCdtNtries>
-        <NbOfNtries>1</NbOfNtries>
-        <Sum>1.00</Sum>
-    </TtlCdtNtries>
-    <TtlDbtNtries>
-        <NbOfNtries>1</NbOfNtries>
-        <Sum>1.00</Sum>
-    </TtlDbtNtries>
+<TtlNtries>
+<NbOfNtries>2</NbOfNtries>
+<Sum>24.00</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>12.00</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>12.00</Sum>
+</TtlDbtNtries>
 </TxsSummry>
 <Ntry>
-    <Amt Ccy="USD">1.00</Amt>
-    <CdtDbtInd>CRDT</CdtDbtInd>
-    <Sts>BOOK</Sts>
-    <BookgDt>
-        <Dt>2021-09-03</Dt>
-    </BookgDt>
-    <ValDt>
-        <Dt>2021-09-03</Dt>
-    </ValDt>
-    <BkTxCd>
-        <Domn>
-            <Cd>PMNT</Cd>
-            <Fmly>
-                <Cd>RCDT</Cd>
-                <SubFmlyCd>DMCT</SubFmlyCd>
-            </Fmly>
-        </Domn>
-        <Prtry>
-            <Cd>TRF/195/058/TRF/089/18</Cd>
-            <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-        </Prtry>
-    </BkTxCd>
-    <NtryDtls>
-        <TxDtls>
-            <Refs>
-                <EndToEndId>090321</EndToEndId>
-            </Refs>
-            <RltdPties>
-                <Dbtr>
-                    <Nm>Santen Holdings</Nm>
-                </Dbtr>
-            </RltdPties>
-            <RmtInf>
-                <Ustrd>/PREAUTHORIZED ACH CREDITSanten Holdings  4IQFGGN2T9 090321                 CCD</Ustrd>
-            </RmtInf>
-            <AddtlTxInf>:86:/TYPE/165/ACH Credit/CODE/US/000/ORDP/NAME/Santen Holdings//REMI//PREAUTHORIZED ACH CREDITSanten Holdings  4IQFGGN2T9 090321                 CCD/EREF/090321</AddtlTxInf>
-        </TxDtls>
-    </NtryDtls>
+<Amt Ccy="EUR">12.00</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>ACMT</Cd>
+<Fmly>
+<Cd>MDOP</Cd>
+<SubFmlyCd>CHRG</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>COM/524/808/COM/659/62</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>NONREF</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>BNPP FEES - 202203DE00182799 - 02/2022</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BNPP FEES - 202203DE00182799:86:/TYPE/567/INVOICE//CODE/DE//REMI/BNPP FEES - 202203DE00182799 - 02/2022/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
 </Ntry>
 <Ntry>
-    <Amt Ccy="USD">1.00</Amt>
-    <CdtDbtInd>DBIT</CdtDbtInd>
-    <Sts>BOOK</Sts>
-    <BookgDt>
-        <Dt>2021-09-03</Dt>
-    </BookgDt>
-    <ValDt>
-        <Dt>2021-09-03</Dt>
-    </ValDt>
-    <BkTxCd>
-        <Domn>
-            <Cd>PMNT</Cd>
-            <Fmly>
-                <Cd>RDDT</Cd>
-                <SubFmlyCd>OTHR</SubFmlyCd>
-            </Fmly>
-        </Domn>
-        <Prtry>
-            <Cd>DDT/699/120/DDT/F06/08</Cd>
-            <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-        </Prtry>
-    </BkTxCd>
-    <NtryDtls>
-        <TxDtls>
-            <Refs>
-                <EndToEndId>NONREF</EndToEndId>
-            </Refs>
-            <RmtInf>
-                <Ustrd>ACH SETTLEMENT DEBIT SANTEN HOLDINGS  MISC       090321  SETT SWIFTNET      S</Ustrd>
-            </RmtInf>
-            <AddtlTxInf>:86:/TYPE/466/ACH Settlement/CODE/US/000/REMI/ACH SETTLEMENT DEBIT SANTEN HOLDINGS  MISC       090321  SETT SWIFTNET      S</AddtlTxInf>
-        </TxDtls>
-    </NtryDtls>
+<Amt Ccy="EUR">12.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<AcctSvcrRef>220301</AcctSvcrRef>
+<BkTxCd>
+<Domn>
+<Cd>CAMT</Cd>
+<Fmly>
+<Cd>ACCB</Cd>
+<SubFmlyCd>ZABA</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>CMZ/275/833/CON/602/94</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>2022030100011970</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
 </Ntry>
 </Stmt>
 <Stmt>
-<Id>ZYBKPFW6L15HQOBND</Id>
-<ElctrncSeqNb>1</ElctrncSeqNb>
-<CreDtTm>2021-09-04T16:01:44</CreDtTm>
+<Id>ZYBLQ43WYL1UD0LCP</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
 <Acct>
-    <Id>
-        <Othr>
-            <Id>065535460</Id>
-        </Othr>
-    </Id>
-    <Ccy>USD</Ccy>
-    <Svcr>
-        <FinInstnId>
-            <BIC>BNPAFRPPXXX</BIC>
-        </FinInstnId>
-    </Svcr>
+<Id>
+<Othr>
+<Id>4223658032EUR</Id>
+</Othr>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>BNPADEFFXXX</BIC>
+</FinInstnId>
+</Svcr>
 </Acct>
 <Bal>
-    <Tp>
-        <CdOrPrtry>
-            <Cd>OPBD</Cd>
-        </CdOrPrtry>
-    </Tp>
-    <Amt Ccy="USD">0.00</Amt>
-    <CdtDbtInd>CRDT</CdtDbtInd>
-    <Dt>
-        <Dt>2021-09-03</Dt>
-    </Dt>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
 </Bal>
 <Bal>
-    <Tp>
-        <CdOrPrtry>
-            <Cd>CLBD</Cd>
-        </CdOrPrtry>
-    </Tp>
-    <Amt Ccy="USD">0.00</Amt>
-    <CdtDbtInd>CRDT</CdtDbtInd>
-    <Dt>
-        <Dt>2021-09-03</Dt>
-    </Dt>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
 </Bal>
 <Bal>
-    <Tp>
-        <CdOrPrtry>
-            <Cd>CLAV</Cd>
-        </CdOrPrtry>
-    </Tp>
-    <Amt Ccy="USD">0.00</Amt>
-    <CdtDbtInd>CRDT</CdtDbtInd>
-    <Dt>
-        <Dt>2021-09-03</Dt>
-    </Dt>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
 </Bal>
 <TxsSummry>
-    <TtlNtries>
-        <NbOfNtries>0</NbOfNtries>
-        <Sum>0.00</Sum>
-        <TtlNetNtryAmt>0.00</TtlNetNtryAmt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-    </TtlNtries>
-    <TtlCdtNtries>
-        <NbOfNtries>0</NbOfNtries>
-        <Sum>0.00</Sum>
-    </TtlCdtNtries>
-    <TtlDbtNtries>
-        <NbOfNtries>0</NbOfNtries>
-        <Sum>0.00</Sum>
-    </TtlDbtNtries>
+<TtlNtries>
+<NbOfNtries>7</NbOfNtries>
+<Sum>110485803.68</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>4</NbOfNtries>
+<Sum>55242901.84</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>3</NbOfNtries>
+<Sum>55242901.84</Sum>
+</TtlDbtNtries>
+</TxsSummry>
+<Ntry>
+<Amt Ccy="EUR">188.25</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>ACMT</Cd>
+<Fmly>
+<Cd>MDOP</Cd>
+<SubFmlyCd>CHRG</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>COM/524/808/COM/659/62</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>NONREF</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>BNPP FEES - 202203DE00182799 - 02/2022</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BNPP FEES - 202203DE00182799:86:/TYPE/567/INVOICE//CODE/DE//REMI/BNPP FEES - 202203DE00182799 - 02/2022/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">446713.58</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>ICDT</Cd>
+<SubFmlyCd>ESCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/495/191/TRF/089/21</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<Btch>
+<PmtInfId>22060000027</PmtInfId>
+<NbOfTxs>24</NbOfTxs>
+</Btch>
+<TxDtls>
+<Refs>
+<EndToEndId>22060000027</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>/TYPE/089/I SEPA CT//CODE/DE//NBTR/24//BENM/NAME/IN FAVOUR OF 24BENEFICIARIES//PREF/22060000027/</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BATCHBOOKING:86:/TYPE/089/I SEPA CT//CODE/DE//NBTR/24//BENM/NAME/IN FAVOUR OF 24BENEFICIARIES//PREF/22060000027/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">54796000.01</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>ICDT</Cd>
+<SubFmlyCd>XBCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/495/210/TRF/089/21</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<Btch>
+<PmtInfId>22060000004</PmtInfId>
+</Btch>
+<TxDtls>
+<Refs>
+<EndToEndId>22060000004</EndToEndId>
+</Refs>
+<Purp>
+<Cd>INTC</Cd>
+</Purp>
+<RmtInf>
+<Ustrd>IN FAVOUR OF 1 BENEFICIARIES</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BATCHBOOKING:86:/TYPE/781/OUT PYT//CODE/DE/000//NBTR/1//REMI/IN FAVOUR OF 1 BENEFICIARIES//PREF/22060000004//TR/2022030100007475//PURP/CD/INTC//URGP/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">28.96</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>RCDT</Cd>
+<SubFmlyCd>ESCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/195/166/TRF/096/18</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>NOTPROVIDED</EndToEndId>
+</Refs>
+<RltdPties>
+<Dbtr>
+<Nm>TURBINE MEDIEN GMBH</Nm>
+</Dbtr>
+<DbtrAcct>
+<Id>
+<IBAN>DE87400501500034095448</IBAN>
+</Id>
+</DbtrAcct>
+</RltdPties>
+<RltdAgts>
+<DbtrAgt>
+<FinInstnId>
+<BIC>WELADED1MST</BIC>
+</FinInstnId>
+</DbtrAgt>
+</RltdAgts>
+<RmtInf>
+<Ustrd>RE-NR. 90284463 KD-NR. 10011540</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:TURBINE MEDIEN GMBH:86:/TYPE/096/R SCT CT//CODE/DE//REMI/RE-NR. 90284463 KD-NR. 10011540//EREF/NOTPROVIDED//ORDP/NAME/TURBINE MEDIEN GMBH//INFO/DE87400501500034095448//OBK/WELADED1MST/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">271806.75</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>RCDT</Cd>
+<SubFmlyCd>ESCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/195/166/TRF/096/18</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>OLPAYMENTTAN.1.1308</EndToEndId>
+</Refs>
+<RltdPties>
+<Dbtr>
+<Nm>SPORTA SPORTRECHTE. UND  MARKETING AGENTUR GMBH</Nm>
+</Dbtr>
+<DbtrAcct>
+<Id>
+<IBAN>DE86700400410222550600</IBAN>
+</Id>
+</DbtrAcct>
+</RltdPties>
+<RltdAgts>
+<DbtrAgt>
+<FinInstnId>
+<BIC>COBADEFFXXX</BIC>
+</FinInstnId>
+</DbtrAgt>
+</RltdAgts>
+<RmtInf>
+<Ustrd>KDNR K71815,08.02.22  90282035271.806,75</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:SPORTA SPORTRECHTE- UND  MARKETING:86:/TYPE/096/R SCT CT//CODE/DE//REMI/KDNR K71815,08.02.22  90282035271.806,75//EREF/OLPAYMENTTAN.1.1308//ORDP/NAME/SPORTA SPORTRECHTE. UND  MARKETING AGENTUR GMBH//INFO/DE86700400410222550600//OBK/COBADEFFXXX/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">5000000.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>RCDT</Cd>
+<SubFmlyCd>XBCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/195/211/TRF/096/18</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>TFMI317747940301</EndToEndId>
+</Refs>
+<RltdPties>
+<Dbtr>
+<Nm>SKY DEUTSCHLAND FER.</Nm>
+</Dbtr>
+<DbtrAcct>
+<Id>
+<IBAN>DE60700202700031672180</IBAN>
+</Id>
+</DbtrAcct>
+</RltdPties>
+<RltdAgts>
+<DbtrAgt>
+<FinInstnId>
+<BIC>HYVEDEMM</BIC>
+</FinInstnId>
+</DbtrAgt>
+</RltdAgts>
+<RmtInf>
+<Ustrd>UBERTRAG AUF BNP</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:SKY DEUTSCHLAND FER.:86:/TYPE/784/FUNDS RECD//CODE/DE/000//REMI/UBERTRAG AUF BNP//ORDP/NAME/SKY DEUTSCHLAND FER.//INFO/DE60700202700031672180//OBK/HYVEDEMM//TR/2022030100022602/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">49971066.13</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<AcctSvcrRef>220301</AcctSvcrRef>
+<BkTxCd>
+<Domn>
+<Cd>CAMT</Cd>
+<Fmly>
+<Cd>ACCB</Cd>
+<SubFmlyCd>ZABA</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>CMZ/275/833/CON/602/94</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>2022030100012179</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+</Stmt>
+<Stmt>
+<Id>ZYBLQ43WYM25AEEB9</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
+<Acct>
+<Id>
+<Othr>
+<Id>4223658040EUR</Id>
+</Othr>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>BNPADEFFXXX</BIC>
+</FinInstnId>
+</Svcr>
+</Acct>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<TxsSummry>
+<TtlNtries>
+<NbOfNtries>2</NbOfNtries>
+<Sum>24.04</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>12.02</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>12.02</Sum>
+</TtlDbtNtries>
+</TxsSummry>
+<Ntry>
+<Amt Ccy="EUR">12.02</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>ACMT</Cd>
+<Fmly>
+<Cd>MDOP</Cd>
+<SubFmlyCd>CHRG</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>COM/524/808/COM/659/62</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>NONREF</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>BNPP FEES - 202203DE00182799 - 02/2022</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BNPP FEES - 202203DE00182799:86:/TYPE/567/INVOICE//CODE/DE//REMI/BNPP FEES - 202203DE00182799 - 02/2022/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">12.02</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<AcctSvcrRef>220301</AcctSvcrRef>
+<BkTxCd>
+<Domn>
+<Cd>CAMT</Cd>
+<Fmly>
+<Cd>ACCB</Cd>
+<SubFmlyCd>ZABA</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>CMZ/275/833/CON/602/94</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>2022030100012226</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+</Stmt>
+<Stmt>
+<Id>ZYBLQ43WYOH3JCL1L</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
+<Acct>
+<Id>
+<Othr>
+<Id>4223658057EUR</Id>
+</Othr>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>BNPADEFFXXX</BIC>
+</FinInstnId>
+</Svcr>
+</Acct>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<TxsSummry>
+<TtlNtries>
+<NbOfNtries>2</NbOfNtries>
+<Sum>34.04</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>17.02</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>17.02</Sum>
+</TtlDbtNtries>
+</TxsSummry>
+<Ntry>
+<Amt Ccy="EUR">17.02</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>ACMT</Cd>
+<Fmly>
+<Cd>MDOP</Cd>
+<SubFmlyCd>CHRG</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>COM/524/808/COM/659/62</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>NONREF</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>BNPP FEES - 202203DE00182799 - 02/2022</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BNPP FEES - 202203DE00182799:86:/TYPE/567/INVOICE//CODE/DE//REMI/BNPP FEES - 202203DE00182799 - 02/2022/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">17.02</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<AcctSvcrRef>220301</AcctSvcrRef>
+<BkTxCd>
+<Domn>
+<Cd>CAMT</Cd>
+<Fmly>
+<Cd>ACCB</Cd>
+<SubFmlyCd>ZABA</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>CMZ/275/833/CON/602/94</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>2022030100011802</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+</Stmt>
+<Stmt>
+<Id>ZYBLQ43WYOZU8E811</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
+<Acct>
+<Id>
+<Othr>
+<Id>4223658065EUR</Id>
+</Othr>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>BNPADEFFXXX</BIC>
+</FinInstnId>
+</Svcr>
+</Acct>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<TxsSummry>
+<TtlNtries>
+<NbOfNtries>2</NbOfNtries>
+<Sum>24.00</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>12.00</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>12.00</Sum>
+</TtlDbtNtries>
+</TxsSummry>
+<Ntry>
+<Amt Ccy="EUR">12.00</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>ACMT</Cd>
+<Fmly>
+<Cd>MDOP</Cd>
+<SubFmlyCd>CHRG</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>COM/524/808/COM/659/62</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>NONREF</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>BNPP FEES - 202203DE00182799 - 02/2022</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BNPP FEES - 202203DE00182799:86:/TYPE/567/INVOICE//CODE/DE//REMI/BNPP FEES - 202203DE00182799 - 02/2022/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">12.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<AcctSvcrRef>220301</AcctSvcrRef>
+<BkTxCd>
+<Domn>
+<Cd>CAMT</Cd>
+<Fmly>
+<Cd>ACCB</Cd>
+<SubFmlyCd>ZABA</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>CMZ/275/833/CON/602/94</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>2022030100012188</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+</Stmt>
+<Stmt>
+<Id>ZYBLQ43WYPALV9SIH</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
+<Acct>
+<Id>
+<Othr>
+<Id>4223663016EUR</Id>
+</Othr>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>BNPADEFFXXX</BIC>
+</FinInstnId>
+</Svcr>
+</Acct>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<TxsSummry>
+<TtlNtries>
+<NbOfNtries>4</NbOfNtries>
+<Sum>62867.34</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>2</NbOfNtries>
+<Sum>31433.67</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>2</NbOfNtries>
+<Sum>31433.67</Sum>
+</TtlDbtNtries>
+</TxsSummry>
+<Ntry>
+<Amt Ccy="EUR">24.53</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>ACMT</Cd>
+<Fmly>
+<Cd>MDOP</Cd>
+<SubFmlyCd>CHRG</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>COM/524/808/COM/659/62</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>NONREF</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>BNPP FEES - 202203DE00182513 - 02/2022</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BNPP FEES - 202203DE00182513:86:/TYPE/567/INVOICE//CODE/DE//REMI/BNPP FEES - 202203DE00182513 - 02/2022/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">5789.95</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>RCDT</Cd>
+<SubFmlyCd>ESCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/195/166/TRF/096/18</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>BOR. DORTMUND GMBH   CO. KGAA-2650-</EndToEndId>
+</Refs>
+<RltdPties>
+<Dbtr>
+<Nm>BORUSSIA DORTMUND GMBH + CO. KGAA</Nm>
+</Dbtr>
+<DbtrAcct>
+<Id>
+<IBAN>DE43441600143207000300</IBAN>
+</Id>
+</DbtrAcct>
+</RltdPties>
+<RltdAgts>
+<DbtrAgt>
+<FinInstnId>
+<BIC>GENODEM1DOR</BIC>
+</FinInstnId>
+</DbtrAgt>
+</RltdAgts>
+<RmtInf>
+<Ustrd>2200104893 V. 01.02.22 2200105480 V. 01.02.22</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BORUSSIA DORTMUND GMBH + CO. KGAA:86:/TYPE/096/R SCT CT//CODE/DE//REMI/2200104893 V. 01.02.22 2200105480 V. 01.02.22//EREF/BOR. DORTMUND GMBH   CO. KGAA-2650-//ORDP/NAME/BORUSSIA DORTMUND GMBH + CO. KGAA//INFO/DE43441600143207000300//OBK/GENODEM1DOR/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">25643.72</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>RCDT</Cd>
+<SubFmlyCd>ESCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/195/166/TRF/096/18</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>0000090000Z009298</EndToEndId>
+</Refs>
+<RltdPties>
+<Dbtr>
+<Nm>GROUPM COMPETENCE CENTER GMBH</Nm>
+</Dbtr>
+<DbtrAcct>
+<Id>
+<IBAN>DE12300800000420116400</IBAN>
+</Id>
+</DbtrAcct>
+</RltdPties>
+<RltdAgts>
+<DbtrAgt>
+<FinInstnId>
+<BIC>DRESDEFF300</BIC>
+</FinInstnId>
+</DbtrAgt>
+</RltdAgts>
+<RmtInf>
+<Ustrd>SIEHE AVIS VOM 01.03.22</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:GROUPM COMPETENCE CENTER GMBH:86:/TYPE/096/R SCT CT//CODE/DE//REMI/SIEHE AVIS VOM 01.03.22//EREF/0000090000Z009298//ORDP/NAME/GROUPM COMPETENCE CENTER GMBH//INFO/DE12300800000420116400//OBK/DRESDEFF300/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">31409.14</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<AcctSvcrRef>220301</AcctSvcrRef>
+<BkTxCd>
+<Domn>
+<Cd>CAMT</Cd>
+<Fmly>
+<Cd>ACCB</Cd>
+<SubFmlyCd>ZABA</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>CMZ/575/833/CON/601/95</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>2022030100012204</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+</Stmt>
+<Stmt>
+<Id>ZYBLQ43WYPU9X5MOP</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
+<Acct>
+<Id>
+<IBAN>AT301810010136790300</IBAN>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>GEBAATWWXXX</BIC>
+</FinInstnId>
+</Svcr>
+</Acct>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<TxsSummry>
+<TtlNtries>
+<NbOfNtries>4</NbOfNtries>
+<Sum>60806.22</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>1</NbOfNtries>
+<Sum>30403.11</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>3</NbOfNtries>
+<Sum>30403.11</Sum>
+</TtlDbtNtries>
+</TxsSummry>
+<Ntry>
+<Amt Ccy="EUR">1514.36</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>ICDT</Cd>
+<SubFmlyCd>DMCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/495/012/TRF/773/21</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<Btch>
+<PmtInfId>22060000025</PmtInfId>
+</Btch>
+<TxDtls>
+<Refs>
+<EndToEndId>22060000025</EndToEndId>
+</Refs>
+<Purp>
+<Cd>INTC</Cd>
+</Purp>
+<RmtInf>
+<Ustrd>IN FAVOUR OF 1 BENEFICIARIES</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BATCHBOOKING:86:206/TYPE/781/OUT PYT//CODE/AT/0//NBTR/1//REMI/IN FAVOUR OF 1 BENEFICIARIES//PREF/22060000025//TR/2022030100027621//PURP/CD/INTC//URGP/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">5400.00</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>ICDT</Cd>
+<SubFmlyCd>DMCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/495/012/TRF/773/21</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<Btch>
+<PmtInfId>22060000029</PmtInfId>
+</Btch>
+<TxDtls>
+<Refs>
+<EndToEndId>22060000029</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>191/TYPE/089/VIR E SEPA//CODE/AT/000//NBTR/1//BENM/NAME/IN FAVOUR OF 1 BENEFICIARIES//PREF/22060000029/</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BATCHBOOKING:86:191/TYPE/089/VIR E SEPA//CODE/AT/000//NBTR/1//BENM/NAME/IN FAVOUR OF 1 BENEFICIARIES//PREF/22060000029/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">23488.75</Amt>
+<CdtDbtInd>DBIT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<BkTxCd>
+<Domn>
+<Cd>PMNT</Cd>
+<Fmly>
+<Cd>ICDT</Cd>
+<SubFmlyCd>DMCT</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>TRF/495/012/TRF/773/21</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<Btch>
+<PmtInfId>22060000028</PmtInfId>
+</Btch>
+<TxDtls>
+<Refs>
+<EndToEndId>22060000028</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>191/TYPE/089/VIR E SEPA//CODE/AT/000//NBTR/6//BENM/NAME/IN FAVOUR OF 6 BENEFICIARIES//PREF/22060000028/</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:BATCHBOOKING:86:191/TYPE/089/VIR E SEPA//CODE/AT/000//NBTR/6//BENM/NAME/IN FAVOUR OF 6 BENEFICIARIES//PREF/22060000028/</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+<Ntry>
+<Amt Ccy="EUR">30403.11</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Sts>BOOK</Sts>
+<BookgDt>
+<Dt>2022-03-01</Dt>
+</BookgDt>
+<ValDt>
+<Dt>2022-03-01</Dt>
+</ValDt>
+<AcctSvcrRef>220301</AcctSvcrRef>
+<BkTxCd>
+<Domn>
+<Cd>CAMT</Cd>
+<Fmly>
+<Cd>ACCB</Cd>
+<SubFmlyCd>ZABA</SubFmlyCd>
+</Fmly>
+</Domn>
+<Prtry>
+<Cd>CMZ/275/833/CON/602/94</Cd>
+<Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
+</Prtry>
+</BkTxCd>
+<NtryDtls>
+<TxDtls>
+<Refs>
+<EndToEndId>2022030100029080</EndToEndId>
+</Refs>
+<RmtInf>
+<Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
+</RmtInf>
+<AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
+</TxDtls>
+</NtryDtls>
+</Ntry>
+</Stmt>
+<Stmt>
+<Id>ZYBLQ43WYP9H4V7MH</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
+<Acct>
+<Id>
+<IBAN>AT461810010136790400</IBAN>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>GEBAATWWXXX</BIC>
+</FinInstnId>
+</Svcr>
+</Acct>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<TxsSummry>
+<TtlNtries>
+<NbOfNtries>0</NbOfNtries>
+<Sum>0.00</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>0</NbOfNtries>
+<Sum>0.00</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>0</NbOfNtries>
+<Sum>0.00</Sum>
+</TtlDbtNtries>
 </TxsSummry>
 </Stmt>
-    <Stmt>
-        <Id>ZYBLH872A3GUEG7FQ</Id>
-        <ElctrncSeqNb>12</ElctrncSeqNb>
-        <CreDtTm>2022-01-19T03:00:53</CreDtTm>
-        <Acct>
-            <Id>
-                <Othr>
-                    <Id>4223345010EUR</Id>
-                </Othr>
-            </Id>
-            <Ccy>EUR</Ccy>
-            <Svcr>
-                <FinInstnId>
-                    <BIC>BNPADEFFXXX</BIC>
-                </FinInstnId>
-            </Svcr>
-        </Acct>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>OPBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="EUR">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2022-01-17</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="EUR">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2022-01-18</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLAV</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="EUR">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2022-01-18</Dt>
-            </Dt>
-        </Bal>
-        <TxsSummry>
-            <TtlNtries>
-                <NbOfNtries>10</NbOfNtries>
-                <Sum>947746.70</Sum>
-                <TtlNetNtryAmt>0.00</TtlNetNtryAmt>
-                <CdtDbtInd>CRDT</CdtDbtInd>
-            </TtlNtries>
-            <TtlCdtNtries>
-                <NbOfNtries>8</NbOfNtries>
-                <Sum>473873.35</Sum>
-            </TtlCdtNtries>
-            <TtlDbtNtries>
-                <NbOfNtries>2</NbOfNtries>
-                <Sum>473873.35</Sum>
-            </TtlDbtNtries>
-        </TxsSummry>
-        <Ntry>
-            <Amt Ccy="EUR">739.05</Amt>
-            <CdtDbtInd>DBIT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>XBCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/495/210/TRF/089/21</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <Btch>
-                    <PmtInfId>22018000002</PmtInfId>
-                </Btch>
-                <TxDtls>
-                    <Refs>
-                        <InstrId>3000004422</InstrId>
-                        <EndToEndId>3000004422</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Cdtr>
-                            <Nm>MICHAEL FROST</Nm>
-                        </Cdtr>
-                        <CdtrAcct>
-                            <Id>
-                                <IBAN>DE02200505501282497815</IBAN>
-                            </Id>
-                        </CdtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <CdtrAgt>
-                            <FinInstnId>
-                                <BIC>HASPDEHHXXX</BIC>
-                            </FinInstnId>
-                        </CdtrAgt>
-                    </RltdAgts>
-                    <Purp>
-                        <Cd>INTC</Cd>
-                    </Purp>
-                    <RmtInf>
-                        <Ustrd>AUSZAHLUNG DARLEHEN 2016 ZZGL. ZINSEN</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:MICHAEL FROST:86:/TYPE/781/OUT PYT//CODE/DE/000//REMI/AUSZAHLUNG DARLEHEN 2016 ZZGL. ZINSEN//EREF/3000004422//TR/2022011800009809//IREF/3000004422//PREF/22018000002//BENM/NAME/MICHAEL FROST//PURP/CD/INTC//INFO/DE02200505501282497815//BBK/HASPDEHH//URGP/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">1075.24</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>XBCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>2201171142-0000007</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>AC DISTRIBUTION + MARKETING GMBH</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>DE31100500000190744855</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>BELADEBEXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>ER 900779215, KD 9105000999 RNR 900 779215 KTO. 70230 0150</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:AC DISTRIBUTION + MARKETING GMBH:86:/TYPE/096/R SCT CT//CODE/DE//REMI/ER 900779215, KD 9105000999 RNR 900 779215 KTO. 70230 0150//EREF/2201171142-0000007//ORDP/NAME/AC DISTRIBUTION + MARKETING GMBH//INFO/DE31100500000190744855//OBK/BELADEBEXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">4150.50</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>0200017731</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>PL HANDELSGESELLSCHAFT MBH</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>AT343200000000306282</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>RLNWATWWXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>/INV/900759362 10.11.2021/INV/900759280 10.11.2021</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:PL HANDELSGESELLSCHAFT MBH:86:/TYPE/096/R SCT CT//CODE/DE//REMI//INV/900759362 10.11.2021/INV/900759280 10.11.2021//EREF/0200017731//ORDP/NAME/PL HANDELSGESELLSCHAFT MBH//INFO/AT343200000000306282//OBK/RLNWATWWXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">9088.42</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>NOTPROVIDED</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>WELT-RECORDS TONTRAEGER</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>DE13360200300006994768</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>NBAGDE3EXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>RE 900761846,900761953,900762528, 900763248, GS 900764932,900780848, RUCKZAHLUNG VORABGUTSCHRIFT 1284060 3200,00 EURO</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:WELT-RECORDS TONTRAEGER:86:/TYPE/096/R SCT CT//CODE/DE//REMI/RE 900761846,900761953,900762528, 900763248, GS 900764932,900780848, RUCKZAHLUNG VORABGUTSCHRIFT 1284060 3200,00 EURO//EREF/NOTPROVIDED//ORDP/NAME/WELT-RECORDS TONTRAEGER//INFO/DE13360200300006994768//OBK/NBAGDE3EXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">13540.88</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>FCS001009774012</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>AMAZON EU S.A R.L.</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>IE04BOFA99006156667038</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>BOFAIE3XXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>FCS001009774012 PAYMENT-NUM  191176829</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:AMAZON EU S.A R.L.:86:/TYPE/096/R SCT CT//CODE/DE//REMI/FCS001009774012 PAYMENT-NUM  191176829//EREF/FCS001009774012//ORDP/NAME/AMAZON EU S.A R.L.//INFO/IE04BOFA99006156667038//OBK/BOFAIE3XXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">16908.80</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>0006028212</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>THALIA BUECHER GMBH</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>DE36500604000000140718</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>GENODEFFXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>SIEHE AVISZAHLGBELEG0006028212VOM18.1.2022</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:THALIA BUECHER GMBH:86:/TYPE/096/R SCT CT//CODE/DE//REMI/SIEHE AVISZAHLGBELEG0006028212VOM18.1.2022//EREF/0006028212//ORDP/NAME/THALIA BUECHER GMBH//INFO/DE36500604000000140718//OBK/GENODEFFXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">18653.95</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>FCS001009545822</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>AMAZON EU S.A R.L.</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>IE04BOFA99006156667038</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>BOFAIE3XXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>FCS001009545822 PAYMENT-NUM  191151935</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:AMAZON EU S.A R.L.:86:/TYPE/096/R SCT CT//CODE/DE//REMI/FCS001009545822 PAYMENT-NUM  191151935//EREF/FCS001009545822//ORDP/NAME/AMAZON EU S.A R.L.//INFO/IE04BOFA99006156667038//OBK/BOFAIE3XXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">92504.26</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>XBCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>5838-75</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>JPC-SCHALLPLATTEN-VERSANDHANDELSGESELLSCHAFT MBH</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>DE77250100300012515300</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>PBNKDEFFXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>LT. AVIS VOM 17.01.22</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:JPC-SCHALLPLATTEN-VERSANDHANDELSGE:86:/TYPE/096/R SCT CT//CODE/DE//REMI/LT. AVIS VOM 17.01.22//EREF/5838-75//ORDP/NAME/JPC-SCHALLPLATTEN-VERSANDHANDELSGESELLSCHAFT MBH//INFO/DE77250100300012515300//OBK/PBNKDEFFXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">317951.30</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>FCS001009793912</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>AMAZON EU S.A R.L.</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>IE04BOFA99006156667038</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>BOFAIE3XXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>FCS001009793912 PAYMENT-NUM  191149625</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:AMAZON EU S.A R.L.:86:/TYPE/096/R SCT CT//CODE/DE//REMI/FCS001009793912 PAYMENT-NUM  191149625//EREF/FCS001009793912//ORDP/NAME/AMAZON EU S.A R.L.//INFO/IE04BOFA99006156667038//OBK/BOFAIE3XXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">473134.30</Amt>
-            <CdtDbtInd>DBIT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <AcctSvcrRef>220118</AcctSvcrRef>
-            <BkTxCd>
-                <Domn>
-                    <Cd>CAMT</Cd>
-                    <Fmly>
-                        <Cd>ACCB</Cd>
-                        <SubFmlyCd>ZABA</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>CMZ/575/833/CON/601/95</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>2022011800015207</EndToEndId>
-                    </Refs>
-                    <RmtInf>
-                        <Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-    </Stmt>
+<Stmt>
+<Id>ZYBLQ43WYQHZREQVT</Id>
+<ElctrncSeqNb>42</ElctrncSeqNb> 
+<CreDtTm>2022-03-02T05:53:50</CreDtTm>
+<Acct>
+<Id>
+<IBAN>AT621810010136790500</IBAN>
+</Id>
+<Ccy>EUR</Ccy>
+<Svcr>
+<FinInstnId>
+<BIC>GEBAATWWXXX</BIC>
+</FinInstnId>
+</Svcr>
+</Acct>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>OPBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-02-28</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLBD</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<Bal>
+<Tp>
+<CdOrPrtry>
+<Cd>CLAV</Cd>
+</CdOrPrtry>
+</Tp>
+<Amt Ccy="EUR">0.00</Amt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+<Dt>
+<Dt>2022-03-01</Dt>
+</Dt>
+</Bal>
+<TxsSummry>
+<TtlNtries>
+<NbOfNtries>0</NbOfNtries>
+<Sum>0.00</Sum>
+<TtlNetNtryAmt>0.00</TtlNetNtryAmt>
+<CdtDbtInd>CRDT</CdtDbtInd>
+</TtlNtries>
+<TtlCdtNtries>
+<NbOfNtries>0</NbOfNtries>
+<Sum>0.00</Sum>
+</TtlCdtNtries>
+<TtlDbtNtries>
+<NbOfNtries>0</NbOfNtries>
+<Sum>0.00</Sum>
+</TtlDbtNtries>
+</TxsSummry>
+</Stmt>
+</BkToCstmrStmt>
 </Document>
-    <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.02">
-    <Stmt>
-        <Id>ZYBKPFW6L0RHD8P2H</Id>
-        <ElctrncSeqNb>1</ElctrncSeqNb>
-        <CreDtTm>2021-09-04T16:01:44</CreDtTm>
-        <Acct>
-            <Id>
-                <Othr>
-                    <Id>065534984</Id>
-                </Othr>
-            </Id>
-            <Ccy>USD</Ccy>
-            <Svcr>
-                <FinInstnId>
-                    <BIC>BNPAFRPPXXX</BIC>
-                </FinInstnId>
-            </Svcr>
-        </Acct>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>OPBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLAV</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <TxsSummry>
-            <TtlNtries>
-                <NbOfNtries>2</NbOfNtries>
-                <Sum>2.00</Sum>
-                <TtlNetNtryAmt>0.00</TtlNetNtryAmt>
-                <CdtDbtInd>CRDT</CdtDbtInd>
-            </TtlNtries>
-            <TtlCdtNtries>
-                <NbOfNtries>1</NbOfNtries>
-                <Sum>1.00</Sum>
-            </TtlCdtNtries>
-            <TtlDbtNtries>
-                <NbOfNtries>1</NbOfNtries>
-                <Sum>1.00</Sum>
-            </TtlDbtNtries>
-        </TxsSummry>
-        <Ntry>
-            <Amt Ccy="USD">1.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2021-09-03</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2021-09-03</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>DMCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/058/TRF/089/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>090321</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>Santen Incorpora</Nm>
-                        </Dbtr>
-                    </RltdPties>
-                    <RmtInf>
-                        <Ustrd>/PREAUTHORIZED ACH CREDITSanten Incorpora 4IQF40AYFE 090321                 CCD</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:SKY DEUTSCHLAND FER.:86:/TYPE/784/FUNDS RECD//CODE/DE/000//REMI/CASHPOOLING 18.01.2022//ORDP/NAME/SKY DEUTSCHLAND FER.//INFO/DE60700202700031672180//OBK/HYVEDEMM//TR/2022011800018607/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="USD">1.00</Amt>
-            <CdtDbtInd>DBIT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2021-09-03</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2021-09-03</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RDDT</Cd>
-                        <SubFmlyCd>OTHR</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>DDT/699/120/DDT/F06/08</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>NONREF</EndToEndId>
-                    </Refs>
-                    <RmtInf>
-                        <Ustrd>ACH SETTLEMENT DEBIT SANTEN HOLDINGS  MISC       090321  SETT SWIFTNET      S</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:86:/TYPE/466/ACH Settlement/CODE/US/000/REMI/ACH SETTLEMENT DEBIT SANTEN HOLDINGS  MISC       090321  SETT SWIFTNET      S</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-    </Stmt>
-    <Stmt>
-        <Id>ZYBKPFW6L1CX14GR9</Id>
-        <ElctrncSeqNb>1</ElctrncSeqNb>
-        <CreDtTm>2021-09-04T16:01:44</CreDtTm>
-        <Acct>
-            <Id>
-                <Othr>
-                    <Id>065535452</Id>
-                </Othr>
-            </Id>
-            <Ccy>USD</Ccy>
-            <Svcr>
-                <FinInstnId>
-                    <BIC>BNPAFRPPXXX</BIC>
-                </FinInstnId>
-            </Svcr>
-        </Acct>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>OPBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.05</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.05</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLAV</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <TxsSummry>
-            <TtlNtries>
-                <NbOfNtries>2</NbOfNtries>
-                <Sum>2.00</Sum>
-                <TtlNetNtryAmt>0.00</TtlNetNtryAmt>
-                <CdtDbtInd>CRDT</CdtDbtInd>
-            </TtlNtries>
-            <TtlCdtNtries>
-                <NbOfNtries>1</NbOfNtries>
-                <Sum>1.00</Sum>
-            </TtlCdtNtries>
-            <TtlDbtNtries>
-                <NbOfNtries>1</NbOfNtries>
-                <Sum>1.00</Sum>
-            </TtlDbtNtries>
-        </TxsSummry>
-        <Ntry>
-            <Amt Ccy="USD">1.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2021-09-03</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2021-09-03</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>DMCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/058/TRF/089/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>090321</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>Santen Holdings</Nm>
-                        </Dbtr>
-                    </RltdPties>
-                    <RmtInf>
-                        <Ustrd>/PREAUTHORIZED ACH CREDITSanten Holdings  4IQFGGN2T9 090321                 CCD</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:86:/TYPE/165/ACH Credit/CODE/US/000/ORDP/NAME/Santen Holdings//REMI//PREAUTHORIZED ACH CREDITSanten Holdings  4IQFGGN2T9 090321                 CCD/EREF/090321</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="USD">1.00</Amt>
-            <CdtDbtInd>DBIT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2021-09-03</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2021-09-03</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RDDT</Cd>
-                        <SubFmlyCd>OTHR</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>DDT/699/120/DDT/F06/08</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>NONREF</EndToEndId>
-                    </Refs>
-                    <RmtInf>
-                        <Ustrd>ACH SETTLEMENT DEBIT SANTEN HOLDINGS  MISC       090321  SETT SWIFTNET      S</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:86:/TYPE/466/ACH Settlement/CODE/US/000/REMI/ACH SETTLEMENT DEBIT SANTEN HOLDINGS  MISC       090321  SETT SWIFTNET      S</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-    </Stmt>
-    <Stmt>
-        <Id>ZYBKPFW6L15HQOBND</Id>
-        <ElctrncSeqNb>1</ElctrncSeqNb>
-        <CreDtTm>2021-09-04T16:01:44</CreDtTm>
-        <Acct>
-            <Id>
-                <Othr>
-                    <Id>065535460</Id>
-                </Othr>
-            </Id>
-            <Ccy>USD</Ccy>
-            <Svcr>
-                <FinInstnId>
-                    <BIC>BNPAFRPPXXX</BIC>
-                </FinInstnId>
-            </Svcr>
-        </Acct>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>OPBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLAV</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="USD">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2021-09-03</Dt>
-            </Dt>
-        </Bal>
-        <TxsSummry>
-            <TtlNtries>
-                <NbOfNtries>0</NbOfNtries>
-                <Sum>0.00</Sum>
-                <TtlNetNtryAmt>0.00</TtlNetNtryAmt>
-                <CdtDbtInd>CRDT</CdtDbtInd>
-            </TtlNtries>
-            <TtlCdtNtries>
-                <NbOfNtries>0</NbOfNtries>
-                <Sum>0.00</Sum>
-            </TtlCdtNtries>
-            <TtlDbtNtries>
-                <NbOfNtries>0</NbOfNtries>
-                <Sum>0.00</Sum>
-            </TtlDbtNtries>
-        </TxsSummry>
-    </Stmt>
-    <Stmt>
-        <Id>ZYBLH872A3GUEG7FQ</Id>
-        <ElctrncSeqNb>12</ElctrncSeqNb>
-        <CreDtTm>2022-01-19T03:00:53</CreDtTm>
-        <Acct>
-            <Id>
-                <Othr>
-                    <Id>4223345010EUR</Id>
-                </Othr>
-            </Id>
-            <Ccy>EUR</Ccy>
-            <Svcr>
-                <FinInstnId>
-                    <BIC>BNPADEFFXXX</BIC>
-                </FinInstnId>
-            </Svcr>
-        </Acct>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>OPBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="EUR">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2022-01-17</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLBD</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="EUR">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2022-01-18</Dt>
-            </Dt>
-        </Bal>
-        <Bal>
-            <Tp>
-                <CdOrPrtry>
-                    <Cd>CLAV</Cd>
-                </CdOrPrtry>
-            </Tp>
-            <Amt Ccy="EUR">0.00</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Dt>
-                <Dt>2022-01-18</Dt>
-            </Dt>
-        </Bal>
-        <TxsSummry>
-            <TtlNtries>
-                <NbOfNtries>10</NbOfNtries>
-                <Sum>947746.70</Sum>
-                <TtlNetNtryAmt>0.00</TtlNetNtryAmt>
-                <CdtDbtInd>CRDT</CdtDbtInd>
-            </TtlNtries>
-            <TtlCdtNtries>
-                <NbOfNtries>8</NbOfNtries>
-                <Sum>473873.35</Sum>
-            </TtlCdtNtries>
-            <TtlDbtNtries>
-                <NbOfNtries>2</NbOfNtries>
-                <Sum>473873.35</Sum>
-            </TtlDbtNtries>
-        </TxsSummry>
-        <Ntry>
-            <Amt Ccy="EUR">739.05</Amt>
-            <CdtDbtInd>DBIT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>XBCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/495/210/TRF/089/21</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <Btch>
-                    <PmtInfId>22018000002</PmtInfId>
-                </Btch>
-                <TxDtls>
-                    <Refs>
-                        <InstrId>3000004422</InstrId>
-                        <EndToEndId>3000004422</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Cdtr>
-                            <Nm>MICHAEL FROST</Nm>
-                        </Cdtr>
-                        <CdtrAcct>
-                            <Id>
-                                <IBAN>DE02200505501282497815</IBAN>
-                            </Id>
-                        </CdtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <CdtrAgt>
-                            <FinInstnId>
-                                <BIC>HASPDEHHXXX</BIC>
-                            </FinInstnId>
-                        </CdtrAgt>
-                    </RltdAgts>
-                    <Purp>
-                        <Cd>INTC</Cd>
-                    </Purp>
-                    <RmtInf>
-                        <Ustrd>AUSZAHLUNG DARLEHEN 2016 ZZGL. ZINSEN</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:MICHAEL FROST:86:/TYPE/781/OUT PYT//CODE/DE/000//REMI/AUSZAHLUNG DARLEHEN 2016 ZZGL. ZINSEN//EREF/3000004422//TR/2022011800009809//IREF/3000004422//PREF/22018000002//BENM/NAME/MICHAEL FROST//PURP/CD/INTC//INFO/DE02200505501282497815//BBK/HASPDEHH//URGP/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">1075.24</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>2201171142-0000007</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>AC DISTRIBUTION + MARKETING GMBH</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>DE31100500000190744855</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>BELADEBEXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>ER 900779215, KD 9105000999 RNR 900 779215 KTO. 70230 0150</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:AC DISTRIBUTION + MARKETING GMBH:86:/TYPE/096/R SCT CT//CODE/DE//REMI/ER 900779215, KD 9105000999 RNR 900 779215 KTO. 70230 0150//EREF/2201171142-0000007//ORDP/NAME/AC DISTRIBUTION + MARKETING GMBH//INFO/DE31100500000190744855//OBK/BELADEBEXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">4150.50</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>0200017731</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>PL HANDELSGESELLSCHAFT MBH</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>AT343200000000306282</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>RLNWATWWXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>/INV/900759362 10.11.2021/INV/900759280 10.11.2021</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:PL HANDELSGESELLSCHAFT MBH:86:/TYPE/096/R SCT CT//CODE/DE//REMI//INV/900759362 10.11.2021/INV/900759280 10.11.2021//EREF/0200017731//ORDP/NAME/PL HANDELSGESELLSCHAFT MBH//INFO/AT343200000000306282//OBK/RLNWATWWXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">9088.42</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>NOTPROVIDED</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>WELT-RECORDS TONTRAEGER</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>DE13360200300006994768</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>NBAGDE3EXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>RE 900761846,900761953,900762528, 900763248, GS 900764932,900780848, RUCKZAHLUNG VORABGUTSCHRIFT 1284060 3200,00 EURO</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:WELT-RECORDS TONTRAEGER:86:/TYPE/096/R SCT CT//CODE/DE//REMI/RE 900761846,900761953,900762528, 900763248, GS 900764932,900780848, RUCKZAHLUNG VORABGUTSCHRIFT 1284060 3200,00 EURO//EREF/NOTPROVIDED//ORDP/NAME/WELT-RECORDS TONTRAEGER//INFO/DE13360200300006994768//OBK/NBAGDE3EXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">13540.88</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>FCS001009774012</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>AMAZON EU S.A R.L.</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>IE04BOFA99006156667038</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>BOFAIE3XXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>FCS001009774012 PAYMENT-NUM  191176829</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:AMAZON EU S.A R.L.:86:/TYPE/096/R SCT CT//CODE/DE//REMI/FCS001009774012 PAYMENT-NUM  191176829//EREF/FCS001009774012//ORDP/NAME/AMAZON EU S.A R.L.//INFO/IE04BOFA99006156667038//OBK/BOFAIE3XXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">16908.80</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>0006028212</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>THALIA BUECHER GMBH</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>DE36500604000000140718</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>GENODEFFXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>SIEHE AVISZAHLGBELEG0006028212VOM18.1.2022</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:THALIA BUECHER GMBH:86:/TYPE/096/R SCT CT//CODE/DE//REMI/SIEHE AVISZAHLGBELEG0006028212VOM18.1.2022//EREF/0006028212//ORDP/NAME/THALIA BUECHER GMBH//INFO/DE36500604000000140718//OBK/GENODEFFXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">18653.95</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>FCS001009545822</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>AMAZON EU S.A R.L.</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>IE04BOFA99006156667038</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>BOFAIE3XXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>FCS001009545822 PAYMENT-NUM  191151935</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:AMAZON EU S.A R.L.:86:/TYPE/096/R SCT CT//CODE/DE//REMI/FCS001009545822 PAYMENT-NUM  191151935//EREF/FCS001009545822//ORDP/NAME/AMAZON EU S.A R.L.//INFO/IE04BOFA99006156667038//OBK/BOFAIE3XXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">92504.26</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>5838-75</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>JPC-SCHALLPLATTEN-VERSANDHANDELSGESELLSCHAFT MBH</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>DE77250100300012515300</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>PBNKDEFFXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>LT. AVIS VOM 17.01.22</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:JPC-SCHALLPLATTEN-VERSANDHANDELSGE:86:/TYPE/096/R SCT CT//CODE/DE//REMI/LT. AVIS VOM 17.01.22//EREF/5838-75//ORDP/NAME/JPC-SCHALLPLATTEN-VERSANDHANDELSGESELLSCHAFT MBH//INFO/DE77250100300012515300//OBK/PBNKDEFFXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">317951.30</Amt>
-            <CdtDbtInd>CRDT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <BkTxCd>
-                <Domn>
-                    <Cd>PMNT</Cd>
-                    <Fmly>
-                        <Cd>RCDT</Cd>
-                        <SubFmlyCd>ESCT</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>TRF/195/166/TRF/096/18</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>FCS001009793912</EndToEndId>
-                    </Refs>
-                    <RltdPties>
-                        <Dbtr>
-                            <Nm>AMAZON EU S.A R.L.</Nm>
-                        </Dbtr>
-                        <DbtrAcct>
-                            <Id>
-                                <IBAN>IE04BOFA99006156667038</IBAN>
-                            </Id>
-                        </DbtrAcct>
-                    </RltdPties>
-                    <RltdAgts>
-                        <DbtrAgt>
-                            <FinInstnId>
-                                <BIC>BOFAIE3XXXX</BIC>
-                            </FinInstnId>
-                        </DbtrAgt>
-                    </RltdAgts>
-                    <RmtInf>
-                        <Ustrd>FCS001009793912 PAYMENT-NUM  191149625</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:AMAZON EU S.A R.L.:86:/TYPE/096/R SCT CT//CODE/DE//REMI/FCS001009793912 PAYMENT-NUM  191149625//EREF/FCS001009793912//ORDP/NAME/AMAZON EU S.A R.L.//INFO/IE04BOFA99006156667038//OBK/BOFAIE3XXXX/</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-        <Ntry>
-            <Amt Ccy="EUR">473134.30</Amt>
-            <CdtDbtInd>DBIT</CdtDbtInd>
-            <Sts>BOOK</Sts>
-            <BookgDt>
-                <Dt>2022-01-18</Dt>
-            </BookgDt>
-            <ValDt>
-                <Dt>2022-01-18</Dt>
-            </ValDt>
-            <AcctSvcrRef>220118</AcctSvcrRef>
-            <BkTxCd>
-                <Domn>
-                    <Cd>CAMT</Cd>
-                    <Fmly>
-                        <Cd>ACCB</Cd>
-                        <SubFmlyCd>ZABA</SubFmlyCd>
-                    </Fmly>
-                </Domn>
-                <Prtry>
-                    <Cd>CMZ/575/833/CON/601/95</Cd>
-                    <Issr>SWIFT/BAI2/GVC/FINSTA/BT/CFONB</Issr>
-                </Prtry>
-            </BkTxCd>
-            <NtryDtls>
-                <TxDtls>
-                    <Refs>
-                        <EndToEndId>2022011800015207</EndToEndId>
-                    </Refs>
-                    <RmtInf>
-                        <Ustrd>CAT V BNPANL2AXXX 0227731182EUR</Ustrd>
-                    </RmtInf>
-                    <AddtlTxInf>:61.9:CAT V BNPANL2AXXX 0227731182EUR:86:CAT V BNPANL2AXXX 0227731182EUR</AddtlTxInf>
-                </TxDtls>
-            </NtryDtls>
-        </Ntry>
-    </Stmt>
-    </Document>
-</Root>
